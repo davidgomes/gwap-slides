@@ -1,0 +1,10 @@
+.slides section * {
+  font-family: 'Roboto', serif;
+}
+
+.slides blockquote {
+  background: none;
+  text-align: left;
+  border-left: solid 10px gray;
+  padding-left: 30px;
+}

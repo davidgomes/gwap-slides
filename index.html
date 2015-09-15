@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Games With A Purpose</title>
+
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+    <link rel="stylesheet" href="gwap.css">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h1>Games With A Purpose</h1>
+          <p>
+            <small><a href="http://twitter.com/davidrfgomes">@davidrfgomes</a></small>
+          </p>
+        </section>
+
+        <section>
+          <small>
+            <blockquote>
+              Through online games, people can collectively solve large-scale computational problems. Such games constitute a general mechanism for using brain power to solve open problems. People will play such games to be entertained, not to solve a problem - no matter the objective.
+            </blockquote>
+          </small>
+        </section>
+
+        <section>
+          <small>
+            <blockquote>
+              For the first time in human history, hundreds of millions of people can, via the Internet, easily collaborate on the same problem.
+            </blockquote>
+          </small>
+        </section>
+
+        <section>
+          <small>
+            <blockquote>
+              Amazon Mechanical Turk (MTurk) is a crowdsourcing Internet marketplace that enables individuals and businesses (known as Requesters) to coordinate the use of human intelligence to perform tasks that computers are currently unable to do.
+            </blockquote>
+          </small>
+        </section>
+
+        <section>
+          <h2>Amazon's Mechanical Turk</h2>
+
+          <img src="img/amazonturk.png"/>
+        </section>
+
+        <section>
+          <h2>Luis Von Ahn</h2>
+
+          <img src="https://pbs.twimg.com/profile_images/1433256118/Screen_shot_2011-07-08_at_11.42.53_PM.png"/>
+        </section>
+
+        <section>
+          <h2>The ESP Game</h2>
+          <small>(acquired by Google)</small>
+
+          <img src="img/espgame.png"/>
+        </section>
+
+        <section>
+          <img src="img/espgamescreenshot.png"/>
+        </section>
+
+        <section>
+          <small>
+            <blockquote>
+              In the first four months of its operation, the ESP Game generated more than a million labels for more than a <span style="color: red;">quarter of a million images</span>.
+            </blockquote>
+          </small>
+        </section>
+
+        <section>
+          <img src="img/verbositygame.png"/>
+        </section>
+
+        <section>
+          <img src="img/peekaboom.png"/>
+        </section>
+        
+        <section>
+          <img src="img/matchin.png"/>
+        </section>
+
+        <section>
+          <h2>CAPTCHA</h2>
+
+          <small>Completely Automated Public Turing Test To Tell Computers and Humans Apart</small>
+
+          <h2>reCAPTCHA</h2>
+          <small>The reCAPTCHA Project lies at the intersection of cyber security, technology, and the ongoing effort by several commercial and non-profit organizations to digitize printed information.</small>
+
+          <h2></h2> <!-- fake spacing -->
+          <small>(acquired by Google)</small>
+        </section>
+
+        <section>
+          <h2>Duolingo</h2>
+
+          <small>
+            <blockquote>
+              Duolingo is a free language-learning platform that includes a language-learning app along with a crowdsourced text translation platform and a language proficiency assessment center.
+            </blockquote>
+          </small>
+        </section>
+
+        <section>
+          <h2>WordTap</h2>
+
+          <blockquote>
+            <small>
+              People play not because they are personally interested in solving an instance of a computational problem but because they wish to be entertained.
+            </small>
+          </blockquote>
+        </section>
+
+        <section>
+          <img src="img/wordtap1.png"/>
+        </section>
+
+        <section>
+          <img src="img/wordtap2.png"/>
+        </section>
+
+        <section>
+          <img src="img/wordtap3.png"/>
+        </section>
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+     // Full list of configuration options available at:
+     // https://github.com/hakimel/reveal.js#configuration
+     Reveal.initialize({
+         controls: true,
+         progress: true,
+         history: true,
+         center: true,
+
+         transition: 'convex', // none/fade/slide/convex/concave/zoom
+
+         // Optional reveal.js plugins
+         dependencies: [
+             { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+             { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+             { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+             { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+             { src: 'plugin/zoom-js/zoom.js', async: true },
+             { src: 'plugin/notes/notes.js', async: true }
+         ]
+     });
+
+    </script>
+
+  </body>
+</html>
